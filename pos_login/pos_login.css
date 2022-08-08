@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.texto_32 {
+  font-size: 32px;
+}
+
+.texto_16 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#principal {
+  display: flex;
+}
+
+#perfil {
+  background-color: #ff9e54;
+  width: 517px;
+  height: 100vh;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+#apresentacao {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#ft_principal {
+  width: 160px;
+  height: 160px;
+  border-radius: 160px;
+}
+
+.nome_principal {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.texto_comum {
+  font-size: 24px;
+}
+
+.bt_posts {
+  width: 254px;
+  height: 38px;
+  border-radius: 62px;
+  border: none;
+  background-color: #f33f3d;
+}
+
+.bt_posts:hover {
+  color: #edf1f4;
+}
+
+#ft_leitor {
+  width: 64px;
+  height: 64px;
+  border-radius: 64px;
+}
+
+.bt_perfil {
+  padding-top: 16px;
+}
+
+#area_leitores {
+  padding-top: 24px;
+  padding-left: 56px;
+}
+
+#perfil_leitores {
+  width: 299px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 48px;
+  padding-top: 30px;
+}
+
+.nome_leitores {
+  font-size: 24px;
+  padding-left: 24px;
+}
+
+.status_leitores {
+  font-size: 16px;
+  padding-left: 24px;
+}
+
+/* Navbar */
+
+#navbar {
+  background-color: #f6f6f6;
+  width: 995px;
+  height: 256px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 36px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+#logo {
+  height: 65px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#btn_pesquisa {
+  width: 25px;
+  height: 25px;
+}
+
+#pesquisa_box {
+  border: solid 1px;
+  border-radius: 48px;
+  width: 353px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+#txt_pesquisa {
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#area_ola {
+  border: solid 1px;
+  width: 144px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 48px;
+  padding-top: 5px;
+}
+
+#ft_ola {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+}
+
+footer {
+  height: 240px;
+  background-color: #f33f3d;
+  color: #edf1f4;
+}
+
+#tam_footer {
+  height: 240px;
+}
+
+#txt_footer {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding: 75px;
+}
