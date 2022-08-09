@@ -14,12 +14,12 @@ p {
   list-style: none;
 }
 
-.texto_32 {
-  font-size: 32px;
+h1 {
+  font-size: 1.5rem;
 }
 
-.texto_16 {
-  font-size: 16px;
+h2 {
+  font-size: 1rem;
 }
 
 a {
@@ -32,10 +32,10 @@ a {
 
 #perfil {
   background-color: #ff9e54;
-  width: 517px;
-  height: 100vh;
+  width: 32rem;
+  height: 160rem;
   justify-content: center;
-  padding-top: 36px;
+  padding-top: 2rem;
 }
 
 #apresentacao {
@@ -45,172 +45,194 @@ a {
 }
 
 #ft_principal {
-  width: 160px;
-  height: 160px;
-  border-radius: 160px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10rem;
 }
 
 .nome_principal {
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .texto_comum {
-  font-size: 24px;
+  font-size: 1rem;
+}
+
+.texto_btn {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .bt_posts {
-  width: 254px;
-  height: 38px;
-  border-radius: 62px;
+  width: 16rem;
+  height: 2rem;
+  border-radius: 2rem;
   border: none;
   background-color: #f33f3d;
 }
 
 .bt_posts:hover {
-  color: #edf1f4;
+  color: #ff9e54;
+  cursor: pointer;
 }
 
 #ft_leitor {
-  width: 64px;
-  height: 64px;
-  border-radius: 64px;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
 }
 
 .bt_perfil {
-  padding-top: 16px;
+  padding-top: 1rem;
 }
 
 #area_leitores {
-  padding-top: 24px;
-  padding-left: 56px;
+  padding-top: 1.5rem;
+  padding-left: 2.5rem;
 }
 
 #perfil_leitores {
-  width: 299px;
-  height: 48px;
+  width: 16rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   flex-direction: row;
-  border-radius: 48px;
-  padding-top: 30px;
+  border-radius: 3rem;
+  padding-top: 2rem;
 }
 
 .nome_leitores {
-  font-size: 24px;
-  padding-left: 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 1rem;
 }
 
 .status_leitores {
   font-size: 16px;
-  padding-left: 24px;
+  padding-left: 1rem;
 }
 
 /* Navbar */
 
 #navbar {
   background-color: #f6f6f6;
-  width: 900px;
-  height: 80px;
+  width: 56rem;
+  height: 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 36px;
-  padding-left: 64px;
-  padding-right: 64px;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 #logo {
-  height: 65px;
+  height: 4rem;
 }
 
-html {
+/*html {
   font-size: 62.5%;
-}
+}*/
 
 #btn_pesquisa {
-  width: 25px;
-  height: 25px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 #pesquisa_box {
-  border: solid 1px;
-  border-radius: 48px;
-  width: 353px;
-  height: 48px;
+  border: solid 0.06rem;
+  border-radius: 3rem;
+  width: 24rem;
+  height: 2.5rem;
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding-left: 10px;
+  padding-left: 0.6rem;
 }
 
 #txt_pesquisa {
   background-color: transparent;
   border: none;
   outline: 0;
-  font-size: 20px;
-  padding-left: 20px;
+  font-size: 1.25rem;
+  padding-left: 1.25rem;
 }
 
 #area_ola {
-  border: solid 1px;
-  width: 144px;
-  height: 44px;
+  border: solid 0.06rem;
+  width: 9rem;
+  height: 2.5rem;
   display: flex;
   align-items: center;
   flex-direction: row;
-  border-radius: 48px;
-  padding-top: 5px;
+  border-radius: 3rem;
+  padding-top: 0.35rem;
 }
 
 #ft_ola {
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 2.5rem;
+}
+
+.txt_area_ola {
+  padding-left: 0.6rem;
 }
 
 /* Posts do Pos Login */
 
 #posts_receitas {
   background-color: #f6f6f6;
-  width: 900px;
+  width: 56rem;
+  height: 149rem;
   padding: 64px;
 }
 
+#post_especifico {
+  display: table;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
 .titulo_post {
-  padding-bottom: 24px;
-  font-size: 24px;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .img_post {
-  width: 736px;
-  border-radius: 8px 8px 0px 0px;
+  width: 46rem;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .informacoes_post {
   background-color: #edf1f4;
-  width: 736px;
-  border-radius: 0px 0px 8px 8px;
+  width: 46rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
 
 .autor_post {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
-  padding-top: 24px;
-  padding-left: 24px;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .descricao_post {
-  font-size: 16px;
-  padding-top: 24px;
-  padding-left: 24px;
+  font-size: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .estrelas {
   display: flex;
-  padding-top: 24px;
-  padding-left: 24px;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.estrelas_img {
+  width: 1.5rem;
 }
 
 /* footer */
