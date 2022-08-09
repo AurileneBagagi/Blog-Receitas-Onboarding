@@ -99,7 +99,8 @@ a {
   align-items: center;
   flex-direction: row;
   border-radius: 3rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .nome_leitores {
@@ -111,6 +112,29 @@ a {
 .status_leitores {
   font-size: 16px;
   padding-left: 1rem;
+}
+
+.area_botao_expandir {
+  padding-top: 2rem;
+}
+
+.bt_expandir {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: none;
+  display: table;
+  margin: 0 auto;
+  background-color: #f33f3d;
+}
+
+.bt_expandir:hover {
+  cursor: pointer;
+}
+
+.seta_expandir {
+  padding-left: 0.6rem;
+  width: 1rem;
 }
 
 /* Navbar */
@@ -181,6 +205,23 @@ a {
 }
 
 /* Posts do Pos Login */
+
+#area_bt_filtrar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bt_filtrar {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: solid 0.06rem;
+  background-color: #f6f6f6;
+}
+
+.bt_filtrar:hover {
+  cursor: pointer;
+}
 
 #posts_receitas {
   background-color: #f6f6f6;
