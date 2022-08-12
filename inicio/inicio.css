@@ -386,7 +386,7 @@ footer {
   justify-content: space-between;
   justify-items: center;
   align-items: center;
-  padding-left: 160px;
-  padding-right: 160px;
-  padding: 75px;
+  padding-left: 16rem;
+  padding-right: 16rem;
+  padding: 7.5rem;
 }
