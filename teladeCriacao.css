@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #FF9E54;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    padding: 0rem 20rem 0rem 20rem;
+    align-content: center;
+    justify-content: space-between;
+    box-shadow: 0.3rem 0.3rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+#logo{
+    margin-top: 0.8rem;
+    width:14rem;
+    height: 6.8rem;
+}
+
+.barra-pesquisa {
+    position: relative;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+.barra-pesquisa input {
+    padding-left: 5rem;
+    width: 50rem;
+    height: 4rem;
+    border: none;
+    border-radius: 3rem;
+}
+
+.barra-pesquisa img {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    width:10rem;
+    height: 4rem;
+    background-color:#a8a7a7;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    box-shadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+.user img{
+    border-radius: 5rem;
+    background-color: #171717;
+    width: 4rem;
+    height: 4rem;
+}
+
+.infos{
+    margin:0rem;
+}
+
+.infos h3{
+    margin:0.3rem;
+    padding-right: 1rem;
+    font-size:1.2rem;
+}
+
+.infos{
+    margin:0.3rem;
+    padding-right: 1rem;
+    padding-left: 0.2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: #171717;
+}
+
+main h1 #titulo{
+    box-sizing: border-box;
+    width:34rem;
+    height: 6rem;
+    font-size: 3rem;
+    overflow:hidden;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    border: none;
+    resize: none;
+    padding-top: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    color: #171717;
+    box-shadow: inset 0rem 0rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+main div textarea{
+    box-sizing: border-box;
+    background-color: #EDF1F4;
+    border-radius: 1rem;
+    resize: none;
+    padding: 0.8rem;
+    box-shadow: inset 0rem 0rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+.editor-pricipal{
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    padding-top: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-color: #F3F781;
+    width: 112rem;
+    height: 8.3rem;
+    padding-bottom: -8.3rem;
+    gap: 3rem;
+    justify-content: center;
+    box-shadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+.editartexto{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    gap: 3rem;
+    box-shadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.2);
+
+}
+
+#fontes{
+    box-sizing: border-box;
+    background-color: white;
+    width:21.2rem;
+    height: 5.8rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    box-shadow: inset 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.caixa-edicao{
+    width:112rem;
+    height: 116.9rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    
+}
+
+h3{
+    font-size: 1.6rem;
+    margin:1rem;
+}
+
+.descricao textarea{
+    background-color: #EDF1F4;
+    width: 112rem;
+    height: 21.7rem; 
+    border-radius: 1rem;
+    box-shadow: inset 0.3rem 0.3rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+.tags textarea{
+    background-color: #EDF1F4;
+    width: 112rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.botoes{
+    margin: 6rem;
+    margin-bottom:8.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10rem;
+}
+
+.botoes .rascunho{
+    font-size: 1.8rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5rem;
+    box-shadow: 0.3rem 0.3rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+.botoes .publicar{
+    background-color:#F33F3D;
+    font-size: 1.8rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border-radius: 5rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    box-sizing: border-box;
+    background-color: #F33F3D;
+    display: flex;
+    width: 100%;
+    height: 24rem;
+    justify-content: center;
+    padding-left: 19.6rem;
+    padding-right: 19.6rem;
+    gap: 22rem;
+}
+
+.texto-final{
+    margin-top: 5rem;
+}
+
+footer p{
+    margin:1.3rem;
+    font-size: 1.6rem;
+    color:white;
+}
