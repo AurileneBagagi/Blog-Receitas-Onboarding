@@ -2,7 +2,7 @@
 
 * {
   font-family: 'Nunito', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 body,
@@ -279,13 +279,13 @@ a {
 /* footer */
 
 footer {
-  height: 240px;
+  height: 15rem;
   background-color: #f33f3d;
   color: #edf1f4;
 }
 
 #tam_footer {
-  height: 240px;
+  height: 15rem;
 }
 
 #txt_footer {
@@ -293,7 +293,7 @@ footer {
   justify-content: space-between;
   justify-items: center;
   align-items: center;
-  padding-left: 160px;
-  padding-right: 160px;
-  padding: 75px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding: 4rem;
 }
