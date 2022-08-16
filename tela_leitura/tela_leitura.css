@@ -131,6 +131,7 @@ main{
     height: 40rem;
     width: 59.9rem;
     align-self: center;
+    border-radius: 0.4rem;
 }
 
 #Receita{
@@ -140,7 +141,7 @@ main{
     font-size: 1.6rem;
     font-weight: 300;
     align-items: flex-start;
-    padding: 1.6rem;
+    padding: 1.6rem 1.6rem 0rem 1.6rem;
     gap: 0.8rem;
     line-height: 2.4rem;
 }
@@ -171,7 +172,74 @@ main{
     border-radius: 1.4rem;
 }
 
+/* AVALIAR ========================================================================================================*/
 
+#Avaliar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+#Avaliar .nota{
+    margin-top: 0;
+} 
+
+.icone{
+    height: 5.2rem;
+}
+
+/* COMENTARIOS ========================================================================================================*/
+#Comentarios{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 2.4rem;
+    color: #171717;
+}
+
+.titulo_comentario{
+    background-color: #F3F781;
+    max-width: 112rem;
+    border-radius: 1.6rem;
+    max-height: 6.4rem;
+    padding: 0.8rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.comentario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4.2rem;
+}
+
+.comentario img{
+    height: 8rem;
+}
+
+.texto_com{
+    border-radius: 2.4rem;
+    width: 96rem;
+    height: 9.2rem;
+    background-color: #EDF1F4;
+    padding: 0.8rem 1.6rem;
+    gap:0.8rem;
+}
+
+.texto_com strong{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.texto_com p{
+    max-width: 92.8rem;
+    height: 5.4rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
 
 /* FOOTER ========================================================================================================*/
 footer{
